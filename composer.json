@@ -1,13 +1,17 @@
 {
-    "name":"tim-bezhashvyly/geoip",
+    "name":"mothership-gmbh/mothership_geoip",
     "type":"magento-module",
     "license":"OSL-3.0",
-    "homepage":"https://github.com/tim-bezhashvyly/geoip",
-    "description":"Connects MaxMind GeoIP DB to Magento",
+    "homepage":"https://github.com/mothership-gmbh/mothership_geoip",
+    "description":"Connects MaxMind GeoIP DB to Magento. Forked from magento-hackathon/Sandfox_GeoIP",
     "authors":[
         {
             "name":"Tim Bezhashvyly",
             "email":"tim.bezhashvyly@gmail.com"
+        },
+        {
+            "name": "Johannes Maximilian Müller",
+            "email": "mueller@mothership.de"
         }
     ],
     "require":{
