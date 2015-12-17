@@ -4,6 +4,7 @@
     "license":"OSL-3.0",
     "homepage":"https://github.com/mothership-gmbh/mothership_geoip",
     "description":"Connects MaxMind GeoIP DB to Magento. Forked from magento-hackathon/Sandfox_GeoIP",
+    "minimum-stability": "dev",
     "authors":[
         {
             "name":"Tim Bezhashvyly",
