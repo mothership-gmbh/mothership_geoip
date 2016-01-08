@@ -31,6 +31,20 @@ class Sandfox_GeoIP_Model_Country extends Sandfox_GeoIP_Model_Abstract
         }
     }
 
+    public function getCountryNameByIp($ip)
+    {
+        /** @var $wrapper Sandfox_GeoIP_Model_Wrapper */
+        $wrapper = Mage::getSingleton('geoip/wrapper');
+        if ($wrapper->geoip_open($this->local_file, 0)) {
+            $countryName = $wrapper->geoip_country_name_by_addr($ip);
+            $wrapper->geoip_close();
+
+            return $countryName;
+        } else {
+            return null;
+        }
+    }
+
     public function getCountry()
     {
         return $this->country;
