@@ -5,7 +5,7 @@
     "homepage":"https://github.com/mothership-gmbh/mothership_geoip",
     "description":"Connects MaxMind GeoIP DB to Magento. Forked from magento-hackathon/Sandfox_GeoIP",
     "minimum-stability": "dev",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "authors":[
         {
             "name":"Tim Bezhashvyly",
